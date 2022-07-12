@@ -741,5 +741,8 @@ def massal(self):
 
 
  
-    
+   
+ if __name__=='__main__':
+	login()
+
 
