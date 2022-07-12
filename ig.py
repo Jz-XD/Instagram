@@ -75,7 +75,7 @@ def clear():
 # BANNER
 def banner():
     clear()
-    wel = '# SELAMAT MENIKMATI TOOLS JAZERU'
+    wel = 'SELAMAT MENIKMATI TOOLS JAZERU'
     wel2 = mark(wel, style='magenta')
     sol().print(wel2)
     au='AUTHOR    :  NITCH \nADMIN     :  JAZERU\nWHATSAPP  :  -'
