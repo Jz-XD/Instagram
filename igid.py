@@ -429,18 +429,18 @@ class instagram:
                 ts = calendar.timegm(current_GMT)
                 nip=random.choice(prox)
                 proxs= {'http': 'socks4://'+nip}
-                aa='Mozilla/5.0 (Linux; Android 4.4.2'
+                aa='Mozilla/5.0 (Linux; U; Android 2.3.4; en-us;' 
                 b=random.choice(['4','5','6','7','8','9','10','11','12'])
-                c='Lenovo A7600-H Build/KOT49H)'
+                c='T-Mobile myTouch 3G Slide Build/GRI40)'
                 d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
                 e=random.randrange(1, 999)
                 f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-                g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0'
+                g='AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0'
                 h=random.randrange(73,100)
                 i='0'
                 j=random.randrange(4200,4900)
                 k=random.randrange(40,150)
-                l='Safari/537.36'
+                l='Mobile Safari/533.1'
                 uaku=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
                 token=s.get('https://www.instagram.com/accounts/login/?next=/accounts/logout/')
                 headers = {
